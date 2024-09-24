@@ -54,7 +54,7 @@ export default function AddItem(props: AddItemProps) {
           />
           <TextField
             value={item.amount}
-            type="number"
+            // type="number"
             onChange={(e) => setItem({ ...item, amount: e.target.value })}
             label="Amount"
             margin="dense"
